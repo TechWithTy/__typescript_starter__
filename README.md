@@ -1,10 +1,11 @@
 # __typescript_starter__
-starter repo for typescript 
-
-TypeScript Cheat Sheet
+# TypeScript Cheat Sheet
 Basic Types
-typescript
+
+# typescript
+
 Copy code
+``` 
 let name: string = 'Ty';
 let age: number = 25;
 let isDeveloper: boolean = true;
@@ -19,7 +20,8 @@ Copy code
 function greet(name: string): void {
   console.log(`Hello, ${name}!`);
 }
-
+```
+```
 const add = (x: number, y: number): number => x + y;
 Interfaces
 typescript
@@ -53,7 +55,8 @@ class Car {
     return `This is a ${this.brand} ${this.model} from ${this.year}.`;
   }
 }
-
+```
+```
 let myCar: Car = new Car('Toyota', 'Corolla', 2021);
 console.log(myCar.getInfo()); // This is a Toyota Corolla from 2021.
 Type Aliases
@@ -99,3 +102,4 @@ let person = {
 
 let city = person?.address?.city;
 console.log(city); // undefined
+```
