@@ -1,5 +1,5 @@
 # __typescript_starter__
-# TypeScript Cheat Sheet
+# TypeScript Started
 Basic Types
 
 # typescript
